@@ -1,8 +1,6 @@
 // Central place to edit menu items
 import type { LucideIcon } from "lucide-react";
 import {
-  Bot,
-  ChartCandlestick,
   Clock4,
   Download,
   Gamepad2,
@@ -30,19 +28,7 @@ export type NavItem = {
 export const NAV_ITEMS: NavItem[] = [
   { key: "dashboard", label: "Dashboard", icon: Grid2x2, href: "/dashboard" },
   { key: "users", label: "All Users", icon: Users, href: "/users" },
-
-  {
-    key: "accounts",
-    label: "Live Accounts",
-    icon: ChartCandlestick,
-    href: "/accounts",
-  },
-  {
-    key: "ai-accounts",
-    label: "Ai Accounts",
-    icon: Bot,
-    href: "/ai-accounts",
-  },
+  { key: "agents", label: "All Agents", icon: Users, href: "/agents" },
 
   {
     key: "deposits",
