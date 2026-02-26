@@ -41,6 +41,10 @@ export const NAV_ITEMS: NavItem[] = [
         label: "Manual Deposits",
         href: "/deposits/manual",
       },
+      {
+        label: " Agent Manual Deposits",
+        href: "/manual-float",
+      },
     ],
   },
 

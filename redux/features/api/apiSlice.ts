@@ -30,6 +30,8 @@ export const apiSlice = createApi({
     "IgamingGames",
     "IgamingBrands",
     "IgamingCategories",
+    "FloatRequests",
+    "MyFloatRequests",
   ],
   endpoints: (builder) => ({}),
 });

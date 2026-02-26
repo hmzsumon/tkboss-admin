@@ -140,4 +140,6 @@ export const {
   useUpdateAgentCommissionConfigMutation,
 
   useUpdateAgentAccountMutation,
+
+  useLazyGetAgentByIdQuery,
 } = agentApi;
