@@ -320,7 +320,7 @@ export default function AdminManualFloatPage() {
         {/* ────────── preview panel ────────── */}
         {preview && (
           <Card className="mt-4 p-4">
-            <div className="rounded-xl border border-white/10 p-4">
+            <div className="rounded-xl border font-x border-white/10 p-4">
               <h3 className="mb-3 text-sm font-semibold text-neutral-200">
                 Preview
               </h3>

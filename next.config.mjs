@@ -11,8 +11,7 @@ const nextConfig = {
     return [
       {
         source: "/api/v1/:path*",
-        destination:
-          "https://cgfx-api-571c8ffe2dd2.herokuapp.com/api/v1/:path*",
+        destination: "https://api.5-223-77-39.nip.io/api/v1/:path*",
       },
     ];
   },
